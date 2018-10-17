@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Form maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JFrameFormInfo" version="1.3">
+	<NonVisualComponents>
+		<Component class="javax.swing.ButtonGroup" name="initilizeDNAColor"/>
+	</NonVisualComponents>
+	<Properties>
+		<Property name="defaultCloseOperation" type="int" value="3"/>
+		<Property name="title" type="java.lang.String" value="Settings"/>
+	</Properties>
+	<SyntheticProperties>
+		<SyntheticProperty name="formSizePolicy" type="int" value="2"/>
+	</SyntheticProperties>
+	<AuxValues>
+		<AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+		<AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+		<AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+		<AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+		<AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+		<AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+		<AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+		<AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+		<AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+	</AuxValues>
+	<Layout>
+		<DimensionLayout dim="0">
+			<Group attributes="0" groupAlignment="0" type="103">
+				<Component alignment="0" attributes="0" id="jPanel1" max="32767"/>
+			</Group>
+		</DimensionLayout>
+		<DimensionLayout dim="1">
+			<Group attributes="0" groupAlignment="0" type="103">
+				<Component alignment="0" attributes="0" id="jPanel1" max="32767"/>
+			</Group>
+		</DimensionLayout>
+	</Layout>
+	<SubComponents>
+		<Container class="javax.swing.JPanel" name="jPanel1">
+			<Layout>
+				<DimensionLayout dim="0">
+					<Group attributes="0" groupAlignment="0" type="103">
+						<Group attributes="0" type="102">
+							<Group attributes="0" groupAlignment="0" type="103">
+								<Group attributes="0" type="102">
+									<Group attributes="0" groupAlignment="0" type="103">
+										<Group alignment="0" attributes="0" type="102">
+											<EmptySpace attributes="0" max="-2" min="-2" pref="14"/>
+											<Component attributes="0" id="label_numOfPolygons" max="-2" min="-2" pref="158"/>
+											<EmptySpace attributes="0" max="-2"/>
+											<Component attributes="0" id="numPolygonsLabel" max="-2" min="-2" pref="24"/>
+										</Group>
+										<Group alignment="0" attributes="0" type="102">
+											<EmptySpace attributes="0" max="-2"/>
+											<Component attributes="0" id="lablePointsInPolygon" max="-2" min="-2" pref="158"/>
+											<EmptySpace attributes="0" max="-2" type="unrelated"/>
+											<Component attributes="0" id="pointsInPolygonLabel" max="-2" min="-2" pref="24"/>
+										</Group>
+									</Group>
+									<EmptySpace attributes="0" max="-2" type="separate"/>
+									<Group attributes="0" groupAlignment="1" type="103">
+										<Group alignment="1" attributes="0" type="102">
+											<Component attributes="0" id="pointsPlus1" max="-2" min="-2"/>
+											<EmptySpace attributes="0" max="-2" type="unrelated"/>
+											<Component attributes="0" id="pointsMinus1" max="-2" min="-2" pref="45"/>
+											<EmptySpace attributes="0" max="-2"/>
+											<Component attributes="0" id="pointsPlus10" max="-2" min="-2" pref="60"/>
+											<EmptySpace attributes="0" max="-2" type="unrelated"/>
+											<Component attributes="0" id="pointsMinus10" max="32767" pref="61"/>
+										</Group>
+										<Group attributes="0" type="102">
+											<Component attributes="0" id="polyPlus1" max="-2" min="-2"/>
+											<EmptySpace attributes="0" max="-2" type="unrelated"/>
+											<Component attributes="0" id="polyMinus1" max="-2" min="-2" pref="45"/>
+											<EmptySpace attributes="0" max="-2"/>
+											<Component attributes="0" id="polyPlus10" max="-2" min="-2" pref="60"/>
+											<EmptySpace attributes="0" max="-2" type="unrelated"/>
+											<Component attributes="0" id="polyMinus10" max="32767"/>
+										</Group>
+									</Group>
+								</Group>
+								<Group attributes="0" type="102">
+									<EmptySpace attributes="0" max="-2"/>
+									<Component attributes="0" id="labelInitilizeDNA" max="-2" min="-2"/>
+									<EmptySpace attributes="0" max="-2" min="-2" pref="56"/>
+									<Component attributes="0" id="white" max="-2" min="-2"/>
+									<EmptySpace attributes="0" max="-2" type="separate"/>
+									<Component attributes="0" id="black" max="-2" min="-2"/>
+									<EmptySpace attributes="0" max="-2" type="separate"/>
+									<Component attributes="0" id="color" max="-2" min="-2"/>
+								</Group>
+							</Group>
+							<EmptySpace attributes="0" max="-2"/>
+						</Group>
+					</Group>
+				</DimensionLayout>
+				<DimensionLayout dim="1">
+					<Group attributes="0" groupAlignment="0" type="103">
+						<Group alignment="0" attributes="0" type="102">
+							<EmptySpace attributes="0" max="-2"/>
+							<Group attributes="0" groupAlignment="3" type="103">
+								<Component alignment="3" attributes="0" id="numPolygonsLabel" max="-2" min="-2" pref="40"/>
+								<Component alignment="3" attributes="0" id="polyMinus1" max="-2" min="-2"/>
+								<Component alignment="3" attributes="0" id="polyPlus10" max="-2" min="-2"/>
+								<Component alignment="3" attributes="0" id="polyMinus10" max="-2" min="-2"/>
+								<Component alignment="3" attributes="0" id="label_numOfPolygons" max="-2" min="-2" pref="40"/>
+								<Component alignment="3" attributes="0" id="polyPlus1" max="-2" min="-2"/>
+							</Group>
+							<EmptySpace attributes="0" max="-2" type="unrelated"/>
+							<Group attributes="0" groupAlignment="3" type="103">
+								<Component alignment="3" attributes="0" id="lablePointsInPolygon" max="-2" min="-2" pref="40"/>
+								<Component alignment="3" attributes="0" id="pointsInPolygonLabel" max="-2" min="-2" pref="40"/>
+								<Component alignment="3" attributes="0" id="pointsMinus1" max="-2" min="-2"/>
+								<Component alignment="3" attributes="0" id="pointsPlus10" max="-2" min="-2"/>
+								<Component alignment="3" attributes="0" id="pointsMinus10" max="-2" min="-2"/>
+								<Component alignment="3" attributes="0" id="pointsPlus1" max="-2" min="-2"/>
+							</Group>
+							<EmptySpace attributes="0" max="-2" type="separate"/>
+							<Group attributes="0" groupAlignment="0" type="103">
+								<Group attributes="0" groupAlignment="3" type="103">
+									<Component alignment="3" attributes="0" id="labelInitilizeDNA" max="-2" min="-2" pref="25"/>
+									<Component alignment="3" attributes="0" id="black" max="-2" min="-2"/>
+									<Component alignment="3" attributes="0" id="color" max="-2" min="-2"/>
+								</Group>
+								<Component alignment="0" attributes="0" id="white" max="-2" min="-2"/>
+							</Group>
+							<EmptySpace attributes="0" max="32767" pref="154"/>
+						</Group>
+					</Group>
+				</DimensionLayout>
+			</Layout>
+			<SubComponents>
+				<Component class="javax.swing.JLabel" name="lablePointsInPolygon">
+					<Properties>
+						<Property editor="org.netbeans.beaninfo.editors.FontEditor" name="font" type="java.awt.Font">
+							<Font name="Rod" size="14" style="0"/>
+						</Property>
+						<Property name="text" type="java.lang.String" value="Points in Polygon:"/>
+					</Properties>
+				</Component>
+				<Component class="javax.swing.JLabel" name="numPolygonsLabel">
+					<Properties>
+						<Property editor="org.netbeans.beaninfo.editors.FontEditor" name="font" type="java.awt.Font">
+							<Font name="Rod" size="18" style="0"/>
+						</Property>
+						<Property name="text" type="java.lang.String" value="50"/>
+					</Properties>
+				</Component>
+				<Component class="javax.swing.JButton" name="polyPlus1">
+					<Properties>
+						<Property name="text" type="java.lang.String" value="+1"/>
+					</Properties>
+					<Events>
+						<EventHandler event="actionPerformed" handler="polyPlus1ActionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent"/>
+					</Events>
+				</Component>
+				<Component class="javax.swing.JButton" name="polyMinus1">
+					<Properties>
+						<Property name="text" type="java.lang.String" value="-1"/>
+					</Properties>
+					<Events>
+						<EventHandler event="actionPerformed" handler="polyMinus1ActionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent"/>
+					</Events>
+				</Component>
+				<Component class="javax.swing.JButton" name="polyPlus10">
+					<Properties>
+						<Property name="text" type="java.lang.String" value="+10"/>
+					</Properties>
+					<Events>
+						<EventHandler event="actionPerformed" handler="polyPlus10ActionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent"/>
+					</Events>
+				</Component>
+				<Component class="javax.swing.JButton" name="polyMinus10">
+					<Properties>
+						<Property name="text" type="java.lang.String" value="-10"/>
+					</Properties>
+					<Events>
+						<EventHandler event="actionPerformed" handler="polyMinus10ActionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent"/>
+					</Events>
+				</Component>
+				<Component class="javax.swing.JLabel" name="label_numOfPolygons">
+					<Properties>
+						<Property editor="org.netbeans.beaninfo.editors.FontEditor" name="font" type="java.awt.Font">
+							<Font name="Rod" size="14" style="0"/>
+						</Property>
+						<Property name="text" type="java.lang.String" value="Number of Polygons:"/>
+					</Properties>
+				</Component>
+				<Component class="javax.swing.JLabel" name="pointsInPolygonLabel">
+					<Properties>
+						<Property editor="org.netbeans.beaninfo.editors.FontEditor" name="font" type="java.awt.Font">
+							<Font name="Rod" size="18" style="0"/>
+						</Property>
+						<Property name="text" type="java.lang.String" value="3"/>
+					</Properties>
+				</Component>
+				<Component class="javax.swing.JButton" name="pointsPlus1">
+					<Properties>
+						<Property name="text" type="java.lang.String" value="+1"/>
+					</Properties>
+					<Events>
+						<EventHandler event="actionPerformed" handler="pointsPlus1ActionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent"/>
+					</Events>
+				</Component>
+				<Component class="javax.swing.JButton" name="pointsMinus1">
+					<Properties>
+						<Property name="text" type="java.lang.String" value="-1"/>
+					</Properties>
+					<Events>
+						<EventHandler event="actionPerformed" handler="pointsMinus1ActionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent"/>
+					</Events>
+				</Component>
+				<Component class="javax.swing.JButton" name="pointsPlus10">
+					<Properties>
+						<Property name="text" type="java.lang.String" value="+10"/>
+					</Properties>
+					<Events>
+						<EventHandler event="actionPerformed" handler="pointsPlus10ActionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent"/>
+					</Events>
+				</Component>
+				<Component class="javax.swing.JButton" name="pointsMinus10">
+					<Properties>
+						<Property name="text" type="java.lang.String" value="-10"/>
+					</Properties>
+					<Events>
+						<EventHandler event="actionPerformed" handler="pointsMinus10ActionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent"/>
+					</Events>
+				</Component>
+				<Component class="javax.swing.JLabel" name="labelInitilizeDNA">
+					<Properties>
+						<Property editor="org.netbeans.beaninfo.editors.FontEditor" name="font" type="java.awt.Font">
+							<Font name="Rod" size="14" style="0"/>
+						</Property>
+						<Property name="text" type="java.lang.String" value="Initilize DNA:"/>
+					</Properties>
+				</Component>
+				<Component class="javax.swing.JRadioButton" name="white">
+					<Properties>
+						<Property editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor" name="buttonGroup" type="javax.swing.ButtonGroup">
+							<ComponentRef name="initilizeDNAColor"/>
+						</Property>
+						<Property editor="org.netbeans.beaninfo.editors.FontEditor" name="font" type="java.awt.Font">
+							<Font name="Rod" size="14" style="0"/>
+						</Property>
+						<Property name="text" type="java.lang.String" value="White"/>
+					</Properties>
+					<Events>
+						<EventHandler event="actionPerformed" handler="whiteActionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent"/>
+					</Events>
+				</Component>
+				<Component class="javax.swing.JRadioButton" name="black">
+					<Properties>
+						<Property editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor" name="buttonGroup" type="javax.swing.ButtonGroup">
+							<ComponentRef name="initilizeDNAColor"/>
+						</Property>
+						<Property editor="org.netbeans.beaninfo.editors.FontEditor" name="font" type="java.awt.Font">
+							<Font name="Rod" size="14" style="0"/>
+						</Property>
+						<Property name="selected" type="boolean" value="true"/>
+						<Property name="text" type="java.lang.String" value="Black"/>
+					</Properties>
+					<Events>
+						<EventHandler event="actionPerformed" handler="blackActionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent"/>
+					</Events>
+				</Component>
+				<Component class="javax.swing.JRadioButton" name="color">
+					<Properties>
+						<Property editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor" name="buttonGroup" type="javax.swing.ButtonGroup">
+							<ComponentRef name="initilizeDNAColor"/>
+						</Property>
+						<Property editor="org.netbeans.beaninfo.editors.FontEditor" name="font" type="java.awt.Font">
+							<Font name="Rod" size="14" style="0"/>
+						</Property>
+						<Property name="text" type="java.lang.String" value="Color"/>
+					</Properties>
+					<Events>
+						<EventHandler event="actionPerformed" handler="colorActionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent"/>
+					</Events>
+				</Component>
+			</SubComponents>
+		</Container>
+	</SubComponents>
+</Form>
